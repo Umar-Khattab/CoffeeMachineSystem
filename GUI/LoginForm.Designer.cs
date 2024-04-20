@@ -35,9 +35,9 @@
             passLabel = new Label();
             LoginBtn = new Krypton.Toolkit.KryptonButton();
             pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
+            SwitchIcon = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)SwitchIcon).BeginInit();
             SuspendLayout();
             // 
             // idTxtBx
@@ -100,6 +100,7 @@
             LoginBtn.StateCommon.Content.ShortText.Font = new Font("Gill Sans MT", 12F, FontStyle.Bold, GraphicsUnit.Point);
             LoginBtn.TabIndex = 4;
             LoginBtn.Values.Text = "Log In";
+            LoginBtn.Click += LoginBtn_Click;
             // 
             // pictureBox1
             // 
@@ -111,15 +112,16 @@
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
             // 
-            // pictureBox2
+            // SwitchIcon
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(607, 5);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(63, 63);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 6;
-            pictureBox2.TabStop = false;
+            SwitchIcon.Image = (Image)resources.GetObject("SwitchIcon.Image");
+            SwitchIcon.Location = new Point(607, 5);
+            SwitchIcon.Name = "SwitchIcon";
+            SwitchIcon.Size = new Size(63, 63);
+            SwitchIcon.SizeMode = PictureBoxSizeMode.StretchImage;
+            SwitchIcon.TabIndex = 6;
+            SwitchIcon.TabStop = false;
+            SwitchIcon.Click += SwitchIcon_Click;
             // 
             // LoginForm
             // 
@@ -127,7 +129,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(682, 342);
-            Controls.Add(pictureBox2);
+            Controls.Add(SwitchIcon);
             Controls.Add(pictureBox1);
             Controls.Add(LoginBtn);
             Controls.Add(passLabel);
@@ -138,7 +140,7 @@
             Name = "LoginForm";
             Text = "LoginForm";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)SwitchIcon).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -151,6 +153,6 @@
         private Label passLabel;
         private Krypton.Toolkit.KryptonButton LoginBtn;
         private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
+        private PictureBox SwitchIcon;
     }
 }

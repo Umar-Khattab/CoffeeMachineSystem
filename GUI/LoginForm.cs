@@ -16,5 +16,21 @@ namespace CoffeeMachineSystem.GUI
         {
             InitializeComponent();
         }
+
+        private void LoginBtn_Click(object sender, EventArgs e)
+        {
+            bool Condition = Admin.Validation(idTxtBx.Text, passTxtbx.Text);
+            if (Condition)
+            {
+                new GUI.AdminForm().Show();
+                this.Hide();
+            }
+        }
+
+        private void SwitchIcon_Click(object sender, EventArgs e)
+        {
+            new GUI.UserForm().Show();
+            this.Hide();
+        }
     }
 }
