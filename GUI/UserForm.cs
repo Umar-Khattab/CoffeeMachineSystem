@@ -16,6 +16,8 @@ namespace CoffeeMachineSystem.GUI
         {
             InitializeComponent();
         }
+
+
         /*---------------------------------------------------------------------------*/
         //This 6 buttom for coffe type and size
 
