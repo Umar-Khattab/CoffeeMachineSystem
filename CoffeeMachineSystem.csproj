@@ -6,6 +6,8 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>D:\programming\c#\CoffeeMachineSystem\Resourses\Documentation.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

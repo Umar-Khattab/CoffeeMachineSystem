@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace CoffeeMachineSystem
 {
+    ///<include file='D:\programming\c#\CoffeeMachineSystem\Resourses\Documentation.xml' path='doc/members[@name="Login"]/Admin/*'/>
     internal static class Admin
     {
         private static string id = "11223344";
         private static string Password = "SHA@fileProject";
-        public static bool Validation(string id,string password)
+        ///<include file='D:\programming\c#\CoffeeMachineSystem\Resourses\Documentation.xml' path='doc/members[@name="Login"]/validate/*'/>
+        public static bool Validate(string id,string password)
         {
             if(Admin.id == id && Admin.Password == password)
             {
