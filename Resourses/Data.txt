@@ -1,1 +1,6 @@
-﻿
+1,water,50000
+2,milk,10000
+3,coffe,1000
+4,sugar,1000
+5,vanilla syrup,1000
+6,caramel syrup,1000
