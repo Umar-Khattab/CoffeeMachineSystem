@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,22 +17,27 @@ namespace CoffeeMachineSystem.GUI
             InitializeComponent();
         }
 
-        private void LoginBtn_Click(object sender, EventArgs e)
-
-
-        {
-            bool Condition = Admin.Validation(idTxtBx.Text, passTxtbx.Text);
-            if (Condition)
-            {
-                new GUI.AdminForm().Show();
-                this.Hide();
-            }
-        }
 
         private void SwitchIcon_Click(object sender, EventArgs e)
         {
             new GUI.UserForm().Show();
             this.Hide();
+        }
+
+        private void LoginBtn_Click(object sender, EventArgs e)
+
+
+        {
+            bool Condition = Admin.Validate(idTxtBx.Text, passTxtbx.Text);
+            if (Condition)
+            {
+                new GUI.AdminForm().Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Invalid ID or Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

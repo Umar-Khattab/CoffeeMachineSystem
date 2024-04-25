@@ -174,7 +174,6 @@
             label8.Size = new Size(37, 24);
             label8.TabIndex = 9;
             label8.Text = "gm";
-            label8.Click += label8_Click;
             // 
             // earnedFromCappuchino
             // 
@@ -472,6 +471,7 @@
             Margin = new Padding(2, 2, 2, 2);
             Name = "AdminForm";
             Text = "Catch here";
+            Load += LoadingAdminForm;
             ((System.ComponentModel.ISupportInitialize)SwitchIcon).EndInit();
             ResumeLayout(false);
             PerformLayout();
