@@ -48,6 +48,7 @@
             checkBox2 = new CheckBox();
             button11 = new Button();
             textBox4 = new TextBox();
+            button12 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -312,11 +313,26 @@
             textBox4.Text = "3";
             textBox4.TextAlign = HorizontalAlignment.Center;
             // 
+            // button12
+            // 
+            button12.BackColor = Color.FromArgb(194, 153, 106);
+            button12.FlatStyle = FlatStyle.Popup;
+            button12.Font = new Font("Impact", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            button12.Location = new Point(568, 403);
+            button12.Margin = new Padding(2);
+            button12.Name = "button12";
+            button12.Size = new Size(32, 27);
+            button12.TabIndex = 20;
+            button12.Text = "A";
+            button12.UseVisualStyleBackColor = false;
+            button12.Click += button12_Click;
+            // 
             // UserForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(643, 432);
+            Controls.Add(button12);
             Controls.Add(textBox4);
             Controls.Add(button11);
             Controls.Add(checkBox2);
@@ -365,5 +381,6 @@
         private CheckBox checkBox2;
         private Button button11;
         private TextBox textBox4;
+        private Button button12;
     }
 }

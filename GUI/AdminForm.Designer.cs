@@ -68,100 +68,110 @@
             // sailedItemsLabel
             // 
             sailedItemsLabel.AutoSize = true;
-            sailedItemsLabel.Font = new Font("Rockwell", 18F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
-            sailedItemsLabel.Location = new Point(33, 21);
+            sailedItemsLabel.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
+            sailedItemsLabel.Location = new Point(23, 13);
+            sailedItemsLabel.Margin = new Padding(2, 0, 2, 0);
             sailedItemsLabel.Name = "sailedItemsLabel";
-            sailedItemsLabel.Size = new Size(263, 44);
+            sailedItemsLabel.Size = new Size(172, 29);
             sailedItemsLabel.TabIndex = 0;
             sailedItemsLabel.Text = "Sailed Items :";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Rockwell", 16F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
-            label1.Location = new Point(33, 259);
+            label1.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point);
+            label1.Location = new Point(23, 155);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(187, 39);
+            label1.Size = new Size(124, 26);
             label1.TabIndex = 1;
             label1.Text = "Inventory :";
             // 
             // sailedCoffee
             // 
             sailedCoffee.AutoSize = true;
-            sailedCoffee.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            sailedCoffee.Location = new Point(178, 94);
+            sailedCoffee.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            sailedCoffee.Location = new Point(125, 56);
+            sailedCoffee.Margin = new Padding(2, 0, 2, 0);
             sailedCoffee.Name = "sailedCoffee";
-            sailedCoffee.Size = new Size(90, 31);
+            sailedCoffee.Size = new Size(70, 24);
             sailedCoffee.TabIndex = 2;
             sailedCoffee.Text = "Coffee";
             // 
             // coffeeQuantity
             // 
             coffeeQuantity.AutoSize = true;
-            coffeeQuantity.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            coffeeQuantity.Location = new Point(333, 330);
+            coffeeQuantity.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            coffeeQuantity.Location = new Point(233, 198);
+            coffeeQuantity.Margin = new Padding(2, 0, 2, 0);
             coffeeQuantity.Name = "coffeeQuantity";
-            coffeeQuantity.Size = new Size(83, 31);
+            coffeeQuantity.Size = new Size(63, 24);
             coffeeQuantity.TabIndex = 3;
             coffeeQuantity.Text = "Catch";
             // 
             // milkQuantity
             // 
             milkQuantity.AutoSize = true;
-            milkQuantity.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            milkQuantity.Location = new Point(333, 385);
+            milkQuantity.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            milkQuantity.Location = new Point(233, 231);
+            milkQuantity.Margin = new Padding(2, 0, 2, 0);
             milkQuantity.Name = "milkQuantity";
-            milkQuantity.Size = new Size(83, 31);
+            milkQuantity.Size = new Size(63, 24);
             milkQuantity.TabIndex = 4;
             milkQuantity.Text = "Catch";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Century Schoolbook", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(422, 562);
+            label4.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(295, 337);
+            label4.Margin = new Padding(2, 0, 2, 0);
             label4.Name = "label4";
-            label4.Size = new Size(49, 33);
+            label4.Size = new Size(30, 24);
             label4.TabIndex = 5;
             label4.Text = "ml";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Century Schoolbook", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(422, 504);
+            label5.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Location = new Point(295, 302);
+            label5.Margin = new Padding(2, 0, 2, 0);
             label5.Name = "label5";
-            label5.Size = new Size(55, 33);
+            label5.Size = new Size(37, 24);
             label5.TabIndex = 6;
             label5.Text = "gm";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("Century Schoolbook", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(422, 437);
+            label6.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.Location = new Point(295, 262);
+            label6.Margin = new Padding(2, 0, 2, 0);
             label6.Name = "label6";
-            label6.Size = new Size(49, 33);
+            label6.Size = new Size(30, 24);
             label6.TabIndex = 7;
             label6.Text = "ml";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Font = new Font("Century Schoolbook", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(422, 382);
+            label7.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.Location = new Point(295, 229);
+            label7.Margin = new Padding(2, 0, 2, 0);
             label7.Name = "label7";
-            label7.Size = new Size(49, 33);
+            label7.Size = new Size(30, 24);
             label7.TabIndex = 8;
             label7.Text = "ml";
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Font = new Font("Century Schoolbook", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(422, 327);
+            label8.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label8.Location = new Point(295, 196);
+            label8.Margin = new Padding(2, 0, 2, 0);
             label8.Name = "label8";
-            label8.Size = new Size(55, 33);
+            label8.Size = new Size(37, 24);
             label8.TabIndex = 9;
             label8.Text = "gm";
             label8.Click += label8_Click;
@@ -169,238 +179,262 @@
             // earnedFromCappuchino
             // 
             earnedFromCappuchino.AutoSize = true;
-            earnedFromCappuchino.Font = new Font("Century Schoolbook", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            earnedFromCappuchino.Location = new Point(536, 193);
+            earnedFromCappuchino.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            earnedFromCappuchino.Location = new Point(375, 116);
+            earnedFromCappuchino.Margin = new Padding(2, 0, 2, 0);
             earnedFromCappuchino.Name = "earnedFromCappuchino";
-            earnedFromCappuchino.Size = new Size(71, 33);
+            earnedFromCappuchino.Size = new Size(47, 24);
             earnedFromCappuchino.TabIndex = 10;
             earnedFromCappuchino.Text = "Also";
             // 
             // earnedFromLate
             // 
             earnedFromLate.AutoSize = true;
-            earnedFromLate.Font = new Font("Century Schoolbook", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            earnedFromLate.Location = new Point(536, 140);
+            earnedFromLate.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            earnedFromLate.Location = new Point(375, 84);
+            earnedFromLate.Margin = new Padding(2, 0, 2, 0);
             earnedFromLate.Name = "earnedFromLate";
-            earnedFromLate.Size = new Size(71, 33);
+            earnedFromLate.Size = new Size(47, 24);
             earnedFromLate.TabIndex = 11;
             earnedFromLate.Text = "Also";
             // 
             // earnedFromCoffee
             // 
             earnedFromCoffee.AutoSize = true;
-            earnedFromCoffee.Font = new Font("Book Antiqua", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            earnedFromCoffee.Location = new Point(536, 94);
+            earnedFromCoffee.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            earnedFromCoffee.Location = new Point(375, 56);
+            earnedFromCoffee.Margin = new Padding(2, 0, 2, 0);
             earnedFromCoffee.Name = "earnedFromCoffee";
-            earnedFromCoffee.Size = new Size(71, 35);
+            earnedFromCoffee.Size = new Size(50, 24);
             earnedFromCoffee.TabIndex = 12;
             earnedFromCoffee.Text = "9999";
             // 
             // waterQuantity
             // 
             waterQuantity.AutoSize = true;
-            waterQuantity.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            waterQuantity.Location = new Point(333, 440);
+            waterQuantity.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            waterQuantity.Location = new Point(233, 264);
+            waterQuantity.Margin = new Padding(2, 0, 2, 0);
             waterQuantity.Name = "waterQuantity";
-            waterQuantity.Size = new Size(83, 31);
+            waterQuantity.Size = new Size(63, 24);
             waterQuantity.TabIndex = 13;
             waterQuantity.Text = "Catch";
             // 
             // sugarQuantity
             // 
             sugarQuantity.AutoSize = true;
-            sugarQuantity.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            sugarQuantity.Location = new Point(333, 507);
+            sugarQuantity.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            sugarQuantity.Location = new Point(233, 304);
+            sugarQuantity.Margin = new Padding(2, 0, 2, 0);
             sugarQuantity.Name = "sugarQuantity";
-            sugarQuantity.Size = new Size(83, 31);
+            sugarQuantity.Size = new Size(63, 24);
             sugarQuantity.TabIndex = 14;
             sugarQuantity.Text = "Catch";
             // 
             // vanillaQuantity
             // 
             vanillaQuantity.AutoSize = true;
-            vanillaQuantity.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            vanillaQuantity.Location = new Point(333, 565);
+            vanillaQuantity.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            vanillaQuantity.Location = new Point(233, 339);
+            vanillaQuantity.Margin = new Padding(2, 0, 2, 0);
             vanillaQuantity.Name = "vanillaQuantity";
-            vanillaQuantity.Size = new Size(83, 31);
+            vanillaQuantity.Size = new Size(63, 24);
             vanillaQuantity.TabIndex = 15;
             vanillaQuantity.Text = "Catch";
             // 
             // sailedCappuchinoQuantity
             // 
             sailedCappuchinoQuantity.AutoSize = true;
-            sailedCappuchinoQuantity.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            sailedCappuchinoQuantity.Location = new Point(376, 192);
+            sailedCappuchinoQuantity.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            sailedCappuchinoQuantity.Location = new Point(263, 115);
+            sailedCappuchinoQuantity.Margin = new Padding(2, 0, 2, 0);
             sailedCappuchinoQuantity.Name = "sailedCappuchinoQuantity";
-            sailedCappuchinoQuantity.Size = new Size(83, 31);
+            sailedCappuchinoQuantity.Size = new Size(63, 24);
             sailedCappuchinoQuantity.TabIndex = 16;
             sailedCappuchinoQuantity.Text = "Catch";
             // 
             // sailedLateQuantity
             // 
             sailedLateQuantity.AutoSize = true;
-            sailedLateQuantity.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            sailedLateQuantity.Location = new Point(376, 143);
+            sailedLateQuantity.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            sailedLateQuantity.Location = new Point(263, 86);
+            sailedLateQuantity.Margin = new Padding(2, 0, 2, 0);
             sailedLateQuantity.Name = "sailedLateQuantity";
-            sailedLateQuantity.Size = new Size(83, 31);
+            sailedLateQuantity.Size = new Size(63, 24);
             sailedLateQuantity.TabIndex = 17;
             sailedLateQuantity.Text = "Catch";
             // 
             // sailedCoffeeQuantity
             // 
             sailedCoffeeQuantity.AutoSize = true;
-            sailedCoffeeQuantity.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            sailedCoffeeQuantity.Location = new Point(376, 94);
+            sailedCoffeeQuantity.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            sailedCoffeeQuantity.Location = new Point(263, 56);
+            sailedCoffeeQuantity.Margin = new Padding(2, 0, 2, 0);
             sailedCoffeeQuantity.Name = "sailedCoffeeQuantity";
-            sailedCoffeeQuantity.Size = new Size(83, 31);
+            sailedCoffeeQuantity.Size = new Size(63, 24);
             sailedCoffeeQuantity.TabIndex = 18;
             sailedCoffeeQuantity.Text = "Catch";
             // 
             // vanillaInventory
             // 
             vanillaInventory.AutoSize = true;
-            vanillaInventory.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            vanillaInventory.Location = new Point(178, 565);
+            vanillaInventory.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            vanillaInventory.Location = new Point(125, 339);
+            vanillaInventory.Margin = new Padding(2, 0, 2, 0);
             vanillaInventory.Name = "vanillaInventory";
-            vanillaInventory.Size = new Size(96, 31);
+            vanillaInventory.Size = new Size(73, 24);
             vanillaInventory.TabIndex = 19;
             vanillaInventory.Text = "Vanilla";
             // 
             // sugarInventory
             // 
             sugarInventory.AutoSize = true;
-            sugarInventory.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            sugarInventory.Location = new Point(178, 507);
+            sugarInventory.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            sugarInventory.Location = new Point(125, 304);
+            sugarInventory.Margin = new Padding(2, 0, 2, 0);
             sugarInventory.Name = "sugarInventory";
-            sugarInventory.Size = new Size(81, 31);
+            sugarInventory.Size = new Size(65, 24);
             sugarInventory.TabIndex = 20;
             sugarInventory.Text = "Sugar";
             // 
             // waterInventory
             // 
             waterInventory.AutoSize = true;
-            waterInventory.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            waterInventory.Location = new Point(178, 441);
+            waterInventory.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            waterInventory.Location = new Point(125, 265);
+            waterInventory.Margin = new Padding(2, 0, 2, 0);
             waterInventory.Name = "waterInventory";
-            waterInventory.Size = new Size(84, 31);
+            waterInventory.Size = new Size(64, 24);
             waterInventory.TabIndex = 21;
             waterInventory.Text = "Water";
             // 
             // milkInventory
             // 
             milkInventory.AutoSize = true;
-            milkInventory.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            milkInventory.Location = new Point(178, 385);
+            milkInventory.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            milkInventory.Location = new Point(125, 231);
+            milkInventory.Margin = new Padding(2, 0, 2, 0);
             milkInventory.Name = "milkInventory";
-            milkInventory.Size = new Size(70, 31);
+            milkInventory.Size = new Size(47, 24);
             milkInventory.TabIndex = 22;
             milkInventory.Text = "Milk";
             // 
             // coffeeInventory
             // 
             coffeeInventory.AutoSize = true;
-            coffeeInventory.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            coffeeInventory.Location = new Point(178, 330);
+            coffeeInventory.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            coffeeInventory.Location = new Point(125, 198);
+            coffeeInventory.Margin = new Padding(2, 0, 2, 0);
             coffeeInventory.Name = "coffeeInventory";
-            coffeeInventory.Size = new Size(90, 31);
+            coffeeInventory.Size = new Size(70, 24);
             coffeeInventory.TabIndex = 23;
             coffeeInventory.Text = "Coffee";
             // 
             // sailedCappuchino
             // 
             sailedCappuchino.AutoSize = true;
-            sailedCappuchino.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            sailedCappuchino.Location = new Point(178, 195);
+            sailedCappuchino.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            sailedCappuchino.Location = new Point(125, 117);
+            sailedCappuchino.Margin = new Padding(2, 0, 2, 0);
             sailedCappuchino.Name = "sailedCappuchino";
-            sailedCappuchino.Size = new Size(157, 31);
+            sailedCappuchino.Size = new Size(123, 24);
             sailedCappuchino.TabIndex = 24;
             sailedCappuchino.Text = "Cappuchino";
             // 
             // sailedLate
             // 
             sailedLate.AutoSize = true;
-            sailedLate.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            sailedLate.Location = new Point(178, 143);
+            sailedLate.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            sailedLate.Location = new Point(125, 86);
+            sailedLate.Margin = new Padding(2, 0, 2, 0);
             sailedLate.Name = "sailedLate";
-            sailedLate.Size = new Size(76, 31);
+            sailedLate.Size = new Size(56, 24);
             sailedLate.TabIndex = 25;
             sailedLate.Text = "Late`";
             // 
             // label25
             // 
             label25.AutoSize = true;
-            label25.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            label25.Location = new Point(613, 94);
+            label25.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label25.Location = new Point(429, 56);
+            label25.Margin = new Padding(2, 0, 2, 0);
             label25.Name = "label25";
-            label25.Size = new Size(27, 31);
+            label25.Size = new Size(21, 24);
             label25.TabIndex = 26;
             label25.Text = "$";
             // 
             // label26
             // 
             label26.AutoSize = true;
-            label26.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            label26.Location = new Point(613, 192);
+            label26.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label26.Location = new Point(429, 115);
+            label26.Margin = new Padding(2, 0, 2, 0);
             label26.Name = "label26";
-            label26.Size = new Size(27, 31);
+            label26.Size = new Size(21, 24);
             label26.TabIndex = 27;
             label26.Text = "$";
             // 
             // label27
             // 
             label27.AutoSize = true;
-            label27.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            label27.Location = new Point(613, 143);
+            label27.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            label27.Location = new Point(429, 86);
+            label27.Margin = new Padding(2, 0, 2, 0);
             label27.Name = "label27";
-            label27.Size = new Size(27, 31);
+            label27.Size = new Size(21, 24);
             label27.TabIndex = 28;
             label27.Text = "$";
             // 
             // caramelInventory
             // 
             caramelInventory.AutoSize = true;
-            caramelInventory.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            caramelInventory.Location = new Point(178, 617);
+            caramelInventory.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            caramelInventory.Location = new Point(125, 370);
+            caramelInventory.Margin = new Padding(2, 0, 2, 0);
             caramelInventory.Name = "caramelInventory";
-            caramelInventory.Size = new Size(113, 31);
+            caramelInventory.Size = new Size(87, 24);
             caramelInventory.TabIndex = 31;
             caramelInventory.Text = "Caramel";
             // 
             // caramelQuantity
             // 
             caramelQuantity.AutoSize = true;
-            caramelQuantity.Font = new Font("Garamond", 14F, FontStyle.Bold, GraphicsUnit.Point);
-            caramelQuantity.Location = new Point(333, 617);
+            caramelQuantity.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Point);
+            caramelQuantity.Location = new Point(233, 370);
+            caramelQuantity.Margin = new Padding(2, 0, 2, 0);
             caramelQuantity.Name = "caramelQuantity";
-            caramelQuantity.Size = new Size(83, 31);
+            caramelQuantity.Size = new Size(63, 24);
             caramelQuantity.TabIndex = 30;
             caramelQuantity.Text = "Catch";
             // 
             // label30
             // 
             label30.AutoSize = true;
-            label30.Font = new Font("Century Schoolbook", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label30.Location = new Point(422, 614);
+            label30.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label30.Location = new Point(295, 368);
+            label30.Margin = new Padding(2, 0, 2, 0);
             label30.Name = "label30";
-            label30.Size = new Size(49, 33);
+            label30.Size = new Size(30, 24);
             label30.TabIndex = 29;
             label30.Text = "ml";
             // 
             // SwitchIcon
             // 
             SwitchIcon.Image = (Image)resources.GetObject("SwitchIcon.Image");
-            SwitchIcon.Location = new Point(725, 12);
+            SwitchIcon.Location = new Point(508, 7);
+            SwitchIcon.Margin = new Padding(2, 2, 2, 2);
             SwitchIcon.Name = "SwitchIcon";
-            SwitchIcon.Size = new Size(63, 63);
+            SwitchIcon.Size = new Size(44, 38);
             SwitchIcon.SizeMode = PictureBoxSizeMode.StretchImage;
             SwitchIcon.TabIndex = 32;
             SwitchIcon.TabStop = false;
+            SwitchIcon.Click += SwitchIcon_Click;
             // 
             // AdminForm
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 678);
+            ClientSize = new Size(560, 407);
             Controls.Add(SwitchIcon);
             Controls.Add(caramelInventory);
             Controls.Add(caramelQuantity);
@@ -435,6 +469,7 @@
             Controls.Add(label1);
             Controls.Add(sailedItemsLabel);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(2, 2, 2, 2);
             Name = "AdminForm";
             Text = "Catch here";
             ((System.ComponentModel.ISupportInitialize)SwitchIcon).EndInit();

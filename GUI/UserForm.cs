@@ -120,10 +120,10 @@
             quantity = ushort.Parse(textBox4.Text);
 
             // Read the available ingredients from the database
-            dbIngred.water   = uint.Parse(fdb.ReadFieldById(1, 2, ','));
-            dbIngred.milk    = uint.Parse(fdb.ReadFieldById(2, 2, ','));
-            dbIngred.coffee  = uint.Parse(fdb.ReadFieldById(3, 2, ','));
-            dbIngred.sugar   = ushort.Parse(fdb.ReadFieldById(4, 2, ','));
+            dbIngred.water = uint.Parse(fdb.ReadFieldById(1, 2, ','));
+            dbIngred.milk = uint.Parse(fdb.ReadFieldById(2, 2, ','));
+            dbIngred.coffee = uint.Parse(fdb.ReadFieldById(3, 2, ','));
+            dbIngred.sugar = ushort.Parse(fdb.ReadFieldById(4, 2, ','));
             dbIngred.vanilla = uint.Parse(fdb.ReadFieldById(5, 2, ','));
             dbIngred.caramel = uint.Parse(fdb.ReadFieldById(6, 2, ','));
 
@@ -202,10 +202,10 @@
             }
 
             // Check if there are enough basic ingredients
-            if (ingred.water  * quantity > dbIngred.water  ||
-                ingred.milk   * quantity > dbIngred.milk   ||
+            if (ingred.water * quantity > dbIngred.water ||
+                ingred.milk * quantity > dbIngred.milk ||
                 ingred.coffee * quantity > dbIngred.coffee ||
-                ingred.sugar  * quantity > dbIngred.sugar)
+                ingred.sugar * quantity > dbIngred.sugar)
             {
                 MessageBox.Show("There are not enough ingredients!");
                 return;
@@ -238,6 +238,12 @@
 
                 MessageBox.Show("Your order has been placed successfully!");
             }
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            new GUI.LoginForm().Show();
+            this.Hide();
         }
     }
 }

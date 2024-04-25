@@ -19,7 +19,13 @@ namespace CoffeeMachineSystem.GUI
 
         private void label8_Click(object sender, EventArgs e)
         {
+            
+        }
 
+        private void SwitchIcon_Click(object sender, EventArgs e)
+        {
+           new GUI.UserForm().Show();
+            this.Hide();
         }
     }
 }
