@@ -1,1 +1,6 @@
-﻿
+1,water,47670
+2,milk,9700
+3,coffe,850
+4,sugar,977
+5,vanilla syrup,1000
+6,caramel syrup,820

@@ -16,9 +16,10 @@ namespace CoffeeMachineSystem.GUI
         {
             InitializeComponent();
         }
+
         private void SwitchIcon_Click(object sender, EventArgs e)
         {
-            new GUI.UserForm().Show();
+           new GUI.UserForm().Show();
             this.Hide();
         }
 

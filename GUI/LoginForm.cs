@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +25,8 @@ namespace CoffeeMachineSystem.GUI
         }
 
         private void LoginBtn_Click(object sender, EventArgs e)
+
+
         {
             bool Condition = Admin.Validate(idTxtBx.Text, passTxtbx.Text);
             if (Condition)
