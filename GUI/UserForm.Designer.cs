@@ -243,6 +243,7 @@
             button9.TabIndex = 13;
             button9.Text = "-";
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
             // 
             // button10
             // 
@@ -256,6 +257,7 @@
             button10.TabIndex = 14;
             button10.Text = "+";
             button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click_1;
             // 
             // checkBox1
             // 
