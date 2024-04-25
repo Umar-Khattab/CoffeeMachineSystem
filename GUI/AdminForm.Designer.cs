@@ -164,7 +164,6 @@
             label8.Size = new Size(55, 33);
             label8.TabIndex = 9;
             label8.Text = "gm";
-            label8.Click += label8_Click;
             // 
             // earnedFromCappuchino
             // 
@@ -395,6 +394,7 @@
             SwitchIcon.SizeMode = PictureBoxSizeMode.StretchImage;
             SwitchIcon.TabIndex = 32;
             SwitchIcon.TabStop = false;
+            SwitchIcon.Click += SwitchIcon_Click;
             // 
             // AdminForm
             // 
@@ -437,6 +437,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "AdminForm";
             Text = "Catch here";
+            Load += LoadingAdminForm;
             ((System.ComponentModel.ISupportInitialize)SwitchIcon).EndInit();
             ResumeLayout(false);
             PerformLayout();

@@ -17,6 +17,13 @@ namespace CoffeeMachineSystem.GUI
             InitializeComponent();
         }
 
+
+        private void SwitchIcon_Click(object sender, EventArgs e)
+        {
+            new GUI.UserForm().Show();
+            this.Hide();
+        }
+
         private void LoginBtn_Click(object sender, EventArgs e)
         {
             bool Condition = Admin.Validate(idTxtBx.Text, passTxtbx.Text);
@@ -25,12 +32,10 @@ namespace CoffeeMachineSystem.GUI
                 new GUI.AdminForm().Show();
                 this.Hide();
             }
-        }
-
-        private void SwitchIcon_Click(object sender, EventArgs e)
-        {
-            new GUI.UserForm().Show();
-            this.Hide();
+            else
+            {
+                MessageBox.Show("Invalid ID or Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

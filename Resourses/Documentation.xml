@@ -1,17 +1,32 @@
-﻿<doc>
-	<members name ="Login">
-		<Admin>
-			<summary>
-				Contains the Data for the admin And methods to Validate the data
-			</summary>
-		</Admin>
-		<validate>
-			<summary>
-				Validates input data with stored data in the Admin Class
-			</summary>
-			<returns>
-				true if the data is valid, false if the data is invalid
-			</returns>
-		</validate>
-	</members>
+<doc>
+	<myMembers>
+		<member name="Admin">
+			<admin>
+				<summary>
+					Contains the Data for the admin And methods to Validate the data
+				</summary>
+			</admin>
+			<validate>
+				<summary>
+					Validates input data with stored data in the Admin Class
+				</summary>
+				<returns>
+					true if the data is valid, false if the data is invalid
+				</returns>
+			</validate>
+		</member>
+		<member name = "SailedItems">
+			<SailedItems>
+				<summary>
+					Class to store the data of the items that are sold by the user
+					And methods to add the items sold by the user
+				</summary>
+			</SailedItems>
+			<Increment>
+				<summary>
+					Increments the number of items sold by the user
+				</summary>
+			</Increment>
+		</member>
+	</myMembers>
 </doc>
