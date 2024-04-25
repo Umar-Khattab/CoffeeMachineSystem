@@ -16,12 +16,12 @@
 
     internal struct StIngredients
     {
-        public ushort water;
-        public ushort milk;
-        public ushort coffee;
+        public uint water;
+        public uint milk;
+        public uint coffee;
         public ushort sugar;
-        public ushort vanilla;
-        public ushort caramel;
+        public uint vanilla;
+        public uint caramel;
     }
 
     public partial class UserForm : Form
@@ -120,12 +120,12 @@
             quantity = ushort.Parse(textBox4.Text);
 
             // Read the available ingredients from the database
-            dbIngred.water   = ushort.Parse(fdb.ReadFieldById(1, 2, ','));
-            dbIngred.milk    = ushort.Parse(fdb.ReadFieldById(2, 2, ','));
-            dbIngred.coffee  = ushort.Parse(fdb.ReadFieldById(3, 2, ','));
+            dbIngred.water   = uint.Parse(fdb.ReadFieldById(1, 2, ','));
+            dbIngred.milk    = uint.Parse(fdb.ReadFieldById(2, 2, ','));
+            dbIngred.coffee  = uint.Parse(fdb.ReadFieldById(3, 2, ','));
             dbIngred.sugar   = ushort.Parse(fdb.ReadFieldById(4, 2, ','));
-            dbIngred.vanilla = ushort.Parse(fdb.ReadFieldById(5, 2, ','));
-            dbIngred.caramel = ushort.Parse(fdb.ReadFieldById(6, 2, ','));
+            dbIngred.vanilla = uint.Parse(fdb.ReadFieldById(5, 2, ','));
+            dbIngred.caramel = uint.Parse(fdb.ReadFieldById(6, 2, ','));
 
             // Store the required ingredients' data based on drink type and size
             switch (drinkName)
