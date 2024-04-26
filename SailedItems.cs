@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,19 +14,19 @@ namespace CoffeeMachineSystem
         public static int SailedLate { get; private set; } = 0;
         public static int SailedCappuchino { get; private set; } = 0;
         ///<include file='Resourses\Documentation.xml' path='doc/myMembers/member[@name="SailedItems"]/Increment/*'/>
-        public static void IncrementSailedCoffee()
+        public static void IncrementSailedCoffee(int quantity)
         {
-            SailedCoffee++;
+            SailedCoffee += quantity;
         }
         ///<include file='Resourses\Documentation.xml' path='doc/myMembers/member[@name="SailedItems"]/Increment/*'/>
-        public static void IncrementSailedLate()
+        public static void IncrementSailedLate(int quantity)
         {
-            SailedLate++;
+            SailedLate += quantity;
         }
         ///<include file='Resourses\Documentation.xml' path='doc/myMembers/member[@name="SailedItems"]/Increment/*'/>
-        public static void IncrementSailedCappuchino()
+        public static void IncrementSailedCappuchino(int quantity)
         {
-            SailedCappuchino++;
+            SailedCappuchino += quantity;
         }
     }
 }

@@ -1,32 +1,177 @@
+<?xml version="1.0"?>
 <doc>
-	<myMembers>
-		<member name="Admin">
-			<admin>
-				<summary>
-					Contains the Data for the admin And methods to Validate the data
-				</summary>
-			</admin>
-			<validate>
-				<summary>
-					Validates input data with stored data in the Admin Class
-				</summary>
-				<returns>
-					true if the data is valid, false if the data is invalid
-				</returns>
-			</validate>
-		</member>
-		<member name = "SailedItems">
-			<SailedItems>
-				<summary>
-					Class to store the data of the items that are sold by the user
-					And methods to add the items sold by the user
-				</summary>
-			</SailedItems>
-			<Increment>
-				<summary>
-					Increments the number of items sold by the user
-				</summary>
-			</Increment>
-		</member>
-	</myMembers>
+    <assembly>
+        <name>CoffeeMachineSystem</name>
+    </assembly>
+    <members>
+        <member name="T:CoffeeMachineSystem.Admin">
+            <!-- Failed to insert some or all of included XML --><include file="Resourses\Documentation.xml" path="doc/myMembers/member[@name=&quot;Admin&quot;]/admin/*" />
+        </member>
+        <member name="M:CoffeeMachineSystem.Admin.Validate(System.String,System.String)">
+            <!-- Failed to insert some or all of included XML --><include file="Resourses\Documentation.xml" path="doc/myMembers/member[@name='Admin']/validate" />
+        </member>
+        <member name="M:CoffeeMachineSystem.DataAccess.TextFileDatabase.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the TextFileDatabase class with the specified file path.
+            </summary>
+            <param name="filePath">The path to the text file used as the database.</param>
+        </member>
+        <member name="M:CoffeeMachineSystem.DataAccess.TextFileDatabase.Insert(System.String)">
+            <summary>
+            Inserts a new record into the text file database.
+            </summary>
+            <param name="record">The record to insert into the database.</param>
+        </member>
+        <member name="M:CoffeeMachineSystem.DataAccess.TextFileDatabase.Read">
+            <summary>
+            Reads all records from the text file database.
+            </summary>
+            <returns>A list containing all records read from the database.</returns>
+        </member>
+        <member name="M:CoffeeMachineSystem.DataAccess.TextFileDatabase.ReadFieldById(System.Int32,System.Int32,System.Char)">
+            <summary>
+            Reads the specified field of a record from the text file database based on the specified ID.
+            </summary>
+            <param name="id">The ID of the record to read.</param>
+            <param name="fieldIndex">The index of the field to read within the record.</param>
+            <param name="separator">The character used to separate fields in the records.</param>
+            <returns>The value of the specified field.</returns>
+        </member>
+        <member name="M:CoffeeMachineSystem.DataAccess.TextFileDatabase.Delete(System.Int32,System.Char)">
+            <summary>
+            Deletes a record from the text file database based on the specified ID.
+            </summary>
+            <param name="id">The ID of the record to delete.</param>
+            <param name="separator">The character used to separate fields in the records.</param>
+        </member>
+        <member name="M:CoffeeMachineSystem.DataAccess.TextFileDatabase.UpdateField(System.Int32,System.Int32,System.String,System.Char)">
+            <summary>
+            Updates a specific field of a record in the text file database based on the specified ID and field index.
+            </summary>
+            <param name="id">The ID of the record to update.</param>
+            <param name="fieldIndex">The index of the field to update within the record.</param>
+            <param name="newValue">The new value to set for the field.</param>
+            <param name="separator">The character used to separate fields in the records.</param>
+        </member>
+        <member name="M:CoffeeMachineSystem.DataAccess.TextFileDatabase.WriteAllRecords(System.Collections.Generic.List{System.String})">
+            <summary>
+            Writes all records to the text file database.
+            </summary>
+            <param name="records">The list of records to write to the database.</param>
+        </member>
+        <member name="F:CoffeeMachineSystem.GUI.AdminForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CoffeeMachineSystem.GUI.AdminForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CoffeeMachineSystem.GUI.AdminForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:CoffeeMachineSystem.GUI.LoginForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CoffeeMachineSystem.GUI.LoginForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CoffeeMachineSystem.GUI.LoginForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:CoffeeMachineSystem.GUI.UserForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CoffeeMachineSystem.GUI.UserForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CoffeeMachineSystem.GUI.UserForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:CoffeeMachineSystem.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:CoffeeMachineSystem.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:CoffeeMachineSystem.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:CoffeeMachineSystem.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:CoffeeMachineSystem.Properties.Resources.edited">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CoffeeMachineSystem.Properties.Resources.last">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:CoffeeMachineSystem.Properties.Resources.photo_2024_04_20_17_20_49">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="T:CoffeeMachineSystem.SailedItems">
+            <!-- Failed to insert some or all of included XML --><include file="Resourses\Documentation.xml" path="doc/myMembers/member[@name=&quot;SailedItems&quot;]/SailedItems/*" />
+        </member>
+        <member name="M:CoffeeMachineSystem.SailedItems.IncrementSailedCoffee(System.Int32)">
+            <!-- Failed to insert some or all of included XML --><include file="Resourses\Documentation.xml" path="doc/myMembers/member[@name=&quot;SailedItems&quot;]/Increment/*" />
+        </member>
+        <member name="M:CoffeeMachineSystem.SailedItems.IncrementSailedLate(System.Int32)">
+            <!-- Failed to insert some or all of included XML --><include file="Resourses\Documentation.xml" path="doc/myMembers/member[@name=&quot;SailedItems&quot;]/Increment/*" />
+        </member>
+        <member name="M:CoffeeMachineSystem.SailedItems.IncrementSailedCappuchino(System.Int32)">
+            <!-- Failed to insert some or all of included XML --><include file="Resourses\Documentation.xml" path="doc/myMembers/member[@name=&quot;SailedItems&quot;]/Increment/*" />
+        </member>
+        <member name="T:CoffeeMachineSystem.ApplicationConfiguration">
+            <summary>
+             Bootstrap the application configuration.
+            </summary>
+        </member>
+        <member name="M:CoffeeMachineSystem.ApplicationConfiguration.Initialize">
+            <summary>
+             Bootstrap the application as follows:
+             <code>
+             global::System.Windows.Forms.Application.EnableVisualStyles();
+             global::System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+             global::System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            </code>
+            </summary>
+        </member>
+    </members>
 </doc>
