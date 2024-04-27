@@ -7,23 +7,42 @@ using System.Threading.Tasks;
 
 namespace CoffeeMachineSystem
 {
-    ///<include file='Resourses\Documentation.xml' path='doc/myMembers/member[@name="SailedItems"]/SailedItems/*'/>
+    /// <summary>
+    /// Class to store the data of the items that are sold by the user
+    /// And methods to add the items sold by the user
+    /// </summary>
     internal static class SailedItems
     {
         public static int SailedCoffee { get; private set; } = 0;
         public static int SailedLate { get; private set; } = 0;
         public static int SailedCappuchino { get; private set; } = 0;
-        ///<include file='Resourses\Documentation.xml' path='doc/myMembers/member[@name="SailedItems"]/Increment/*'/>
+
+
+
+        /// <summary>
+        /// Increments the number of items sold by the user
+        /// </summary>
+        /// <param name="quantity">Quantity That Passed from user form</param>
         public static void IncrementSailedCoffee(int quantity)
         {
             SailedCoffee += quantity;
         }
-        ///<include file='Resourses\Documentation.xml' path='doc/myMembers/member[@name="SailedItems"]/Increment/*'/>
+
+
+        /// <summary>
+        /// Increments the number of items sold by the user
+        /// </summary>
+        /// <param name="quantity">Quantity That Passed from user form</param>
         public static void IncrementSailedLate(int quantity)
         {
             SailedLate += quantity;
         }
-        ///<include file='Resourses\Documentation.xml' path='doc/myMembers/member[@name="SailedItems"]/Increment/*'/>
+
+
+        /// <summary>
+        /// Increments the number of items sold by the user
+        /// </summary>
+        /// <param name="quantity">Quantity That Passed from user form</param>
         public static void IncrementSailedCappuchino(int quantity)
         {
             SailedCappuchino += quantity;
