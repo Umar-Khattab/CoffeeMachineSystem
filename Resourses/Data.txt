@@ -1,6 +1,6 @@
-1,Water,2000
-2,Milk,1000
-3,Coffee,250
-4,Sugar,1000
+1,Water,1775
+2,Milk,970
+3,Coffee,235
+4,Sugar,998
 5,Vanilla syrup,500
-6,Caramel syrup,499
+6,Caramel syrup,469
